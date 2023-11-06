@@ -16,6 +16,7 @@
   /* Variáveis */
   --title-cont-color: #B52184;
   --subtitle-color: #312D64;
+  --cards-bg-color: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
 
 }
 
@@ -50,4 +51,45 @@ figcaption p {
 
 h2 {
   font-size: 3rem;
+}
+
+.cards {
+  background: var(--cards-bg-color);
+
+  display: flex;
+  padding: 5.2rem 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+figure {
+  border-radius: 2rem;
+
+
+  padding: 2.6rem;
+  gap: 3.3rem;
+  align-self: stretch;
+
+  background: #fff;
+}
+
+figure img {
+  margin-bottom: 3.3rem;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  text-align: left;
+  font-size: 1.6rem;
+
+  max-width: 26.6rem;
+}
+
+figcaption h2 {
+  margin-bottom: 2rem;
 }
