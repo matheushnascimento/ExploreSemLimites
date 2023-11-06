@@ -123,19 +123,50 @@ figcaption h2 {
   gap: 2.4rem;
 }
 
-.contact label {
-  display: none;
-}
-
-.contact input {
+.input-wrapper,
+textarea {
   display: flex;
   align-items: center;
   gap: 1.2rem;
-
-  width: 100%;
 
   padding: 1.2rem 1.6rem 1.2rem 1.4rem;
 
   border: 2px solid var(--subtitle-color);
   border-radius: 1.6rem;
+}
+
+.contact input {
+  border: none;
+}
+
+.contact textarea {
+  height: 12.6rem;
+  padding: 1.2rem 1.6rem 1.6rem;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+  color: var(--subtitle-color);
+  font-size: 1.6rem;
+  line-height: 100%;
+  /* 16px */
+}
+
+.contact button {
+  overflow: hidden;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 4.5rem;
+  padding: 1.6rem;
+
+  width: 15rem;
+
+  color: #fff;
+  line-height: normal;
+
+  border: none;
+  border-radius: 1.6rem;
+  background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
 }
