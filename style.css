@@ -10,5 +10,44 @@
 }
 
 :root {
+  font-family: 'Mulish', sans-serif;
   font-size: 62.5%;
+
+  /* Variáveis */
+  --title-cont-color: #B52184;
+  --subtitle-color: #312D64;
+
+}
+
+body {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+  color: var(--title-cont-color);
+}
+
+.capa {
+  margin-bottom: 1.7rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+  margin-bottom: .5rem;
+}
+
+header img:last-of-type {
+  margin: 3.5rem 0 9.3rem;
+}
+
+header p,
+figcaption p {
+  color: var(--subtitle-color);
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
 }
