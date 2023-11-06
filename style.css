@@ -24,6 +24,7 @@ body {
   text-align: center;
 }
 
+/* Header */
 h1,
 h2 {
   font-weight: 900;
@@ -53,6 +54,8 @@ h2 {
   font-size: 3rem;
 }
 
+/* Cards */
+
 .cards {
   background: var(--cards-bg-color);
 
@@ -62,6 +65,8 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 5rem;
+
+  margin-bottom: 7.8rem;
 }
 
 figure {
@@ -92,4 +97,45 @@ figcaption {
 
 figcaption h2 {
   margin-bottom: 2rem;
+}
+
+/* Form */
+
+.contact {
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+  padding: 0, 4rem, 6.5rem, 4.3rem;
+}
+
+.contact h2 {
+  margin-bottom: 4.3rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  padding: 4rem;
+
+  gap: 2.4rem;
+}
+
+.contact label {
+  display: none;
+}
+
+.contact input {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+
+  width: 100%;
+
+  padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+
+  border: 2px solid var(--subtitle-color);
+  border-radius: 1.6rem;
 }
